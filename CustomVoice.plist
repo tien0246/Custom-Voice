@@ -1,0 +1,10 @@
+{
+	Filter = {
+		Bundles = (
+			"com.apple.VoiceMemos",
+			"com.facebook.Messenger",
+			"cn.linfei.SimpleRecorder",
+			"com.garena.game.kgvn",
+		);
+	};
+}

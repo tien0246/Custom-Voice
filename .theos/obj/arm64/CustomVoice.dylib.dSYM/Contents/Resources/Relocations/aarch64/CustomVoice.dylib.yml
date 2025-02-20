@@ -1,0 +1,262 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/tiendoan/Tweak/CustomVoice/.theos/obj/arm64/CustomVoice.dylib'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _soundtouch_ac_test, symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x34 }
+  - { offsetInCU: 0x12BD, offset: 0x12BD, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch16getVersionStringEv, symObjAddr: 0x5B4, symBinAddr: 0x85B4, symSize: 0xC }
+  - { offsetInCU: 0x12DE, offset: 0x12DE, size: 0x8, addend: 0x0, symName: __ZZN10soundtouch10SoundTouch16getVersionStringEvE8_version, symObjAddr: 0x18E0, symBinAddr: 0x185F8, symSize: 0x0 }
+  - { offsetInCU: 0x3F35, offset: 0x3F35, size: 0x8, addend: 0x0, symName: _soundtouch_ac_test, symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x34 }
+  - { offsetInCU: 0x3F4A, offset: 0x3F4A, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouchC2Ev, symObjAddr: 0x34, symBinAddr: 0x8034, symSize: 0x110 }
+  - { offsetInCU: 0x3F74, offset: 0x3F74, size: 0x8, addend: 0x0, symName: __ZN10soundtouch13FIFOProcessorC2Ev, symObjAddr: 0x144, symBinAddr: 0x8144, symSize: 0x48 }
+  - { offsetInCU: 0x3F9C, offset: 0x3F9C, size: 0x8, addend: 0x0, symName: __ZN10soundtouch13FIFOProcessor10setOutPipeEPNS_14FIFOSamplePipeE, symObjAddr: 0x18C, symBinAddr: 0x818C, symSize: 0xA4 }
+  - { offsetInCU: 0x3FCE, offset: 0x3FCE, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch25calcEffectiveRateAndTempoEv, symObjAddr: 0x230, symBinAddr: 0x8230, symSize: 0x22C }
+  - { offsetInCU: 0x4048, offset: 0x4048, size: 0x8, addend: 0x0, symName: __ZN10soundtouch13FIFOProcessorD2Ev, symObjAddr: 0x45C, symBinAddr: 0x845C, symSize: 0x2C }
+  - { offsetInCU: 0x4070, offset: 0x4070, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouchC1Ev, symObjAddr: 0x488, symBinAddr: 0x8488, symSize: 0x2C }
+  - { offsetInCU: 0x409A, offset: 0x409A, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouchD2Ev, symObjAddr: 0x4B4, symBinAddr: 0x84B4, symSize: 0xA4 }
+  - { offsetInCU: 0x40C4, offset: 0x40C4, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouchD1Ev, symObjAddr: 0x558, symBinAddr: 0x8558, symSize: 0x2C }
+  - { offsetInCU: 0x40EE, offset: 0x40EE, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouchD0Ev, symObjAddr: 0x584, symBinAddr: 0x8584, symSize: 0x30 }
+  - { offsetInCU: 0x4118, offset: 0x4118, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch12getVersionIdEv, symObjAddr: 0x5C0, symBinAddr: 0x85C0, symSize: 0x8 }
+  - { offsetInCU: 0x412D, offset: 0x412D, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch11setChannelsEj, symObjAddr: 0x5C8, symBinAddr: 0x85C8, symSize: 0x68 }
+  - { offsetInCU: 0x4161, offset: 0x4161, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch14FIFOSamplePipe22verifyNumberOfChannelsEi, symObjAddr: 0x630, symBinAddr: 0x8630, symSize: 0xA8 }
+  - { offsetInCU: 0x4193, offset: 0x4193, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch7setRateEd, symObjAddr: 0x6D8, symBinAddr: 0x86D8, symSize: 0x30 }
+  - { offsetInCU: 0x41C7, offset: 0x41C7, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch13setRateChangeEd, symObjAddr: 0x708, symBinAddr: 0x8708, symSize: 0x40 }
+  - { offsetInCU: 0x41FB, offset: 0x41FB, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch8setTempoEd, symObjAddr: 0x748, symBinAddr: 0x8748, symSize: 0x30 }
+  - { offsetInCU: 0x422F, offset: 0x422F, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch14setTempoChangeEd, symObjAddr: 0x778, symBinAddr: 0x8778, symSize: 0x40 }
+  - { offsetInCU: 0x4263, offset: 0x4263, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch8setPitchEd, symObjAddr: 0x7B8, symBinAddr: 0x87B8, symSize: 0x30 }
+  - { offsetInCU: 0x4297, offset: 0x4297, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch15setPitchOctavesEd, symObjAddr: 0x7E8, symBinAddr: 0x87E8, symSize: 0x48 }
+  - { offsetInCU: 0x42CB, offset: 0x42CB, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch17setPitchSemiTonesEi, symObjAddr: 0x830, symBinAddr: 0x8830, symSize: 0x40 }
+  - { offsetInCU: 0x42FF, offset: 0x42FF, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch17setPitchSemiTonesEd, symObjAddr: 0x870, symBinAddr: 0x8870, symSize: 0x34 }
+  - { offsetInCU: 0x4333, offset: 0x4333, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch9getOutputEv, symObjAddr: 0x8A4, symBinAddr: 0x88A4, symSize: 0x18 }
+  - { offsetInCU: 0x4357, offset: 0x4357, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14FIFOSamplePipe11moveSamplesERS0_, symObjAddr: 0x8BC, symBinAddr: 0x88BC, symSize: 0x78 }
+  - { offsetInCU: 0x4397, offset: 0x4397, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposer9getOutputEv, symObjAddr: 0x934, symBinAddr: 0x8934, symSize: 0x18 }
+  - { offsetInCU: 0x43BB, offset: 0x43BB, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch8getInputEv, symObjAddr: 0x94C, symBinAddr: 0x894C, symSize: 0x18 }
+  - { offsetInCU: 0x43DF, offset: 0x43DF, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch13setSampleRateEj, symObjAddr: 0x964, symBinAddr: 0x8964, symSize: 0x4C }
+  - { offsetInCU: 0x4415, offset: 0x4415, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch10putSamplesEPKfj, symObjAddr: 0x9B0, symBinAddr: 0x89B0, symSize: 0x228 }
+  - { offsetInCU: 0x445A, offset: 0x445A, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch5flushEv, symObjAddr: 0xBD8, symBinAddr: 0x8BD8, symSize: 0x184 }
+  - { offsetInCU: 0x44AE, offset: 0x44AE, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch10setSettingEii, symObjAddr: 0xD5C, symBinAddr: 0x8D5C, symSize: 0x1DC }
+  - { offsetInCU: 0x452F, offset: 0x452F, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch10SoundTouch10getSettingEi, symObjAddr: 0xF50, symBinAddr: 0x8F50, symSize: 0x2A4 }
+  - { offsetInCU: 0x45DA, offset: 0x45DA, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch9TDStretch17getInputSampleReqEv, symObjAddr: 0x1218, symBinAddr: 0x9218, symSize: 0x24 }
+  - { offsetInCU: 0x45FE, offset: 0x45FE, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch9TDStretch18getOutputBatchSizeEv, symObjAddr: 0x123C, symBinAddr: 0x923C, symSize: 0x20 }
+  - { offsetInCU: 0x4622, offset: 0x4622, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch9TDStretch10getLatencyEv, symObjAddr: 0x125C, symBinAddr: 0x925C, symSize: 0x18 }
+  - { offsetInCU: 0x4646, offset: 0x4646, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch5clearEv, symObjAddr: 0x1274, symBinAddr: 0x9274, symSize: 0x54 }
+  - { offsetInCU: 0x466D, offset: 0x466D, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch10SoundTouch21numUnprocessedSamplesEv, symObjAddr: 0x12C8, symBinAddr: 0x92C8, symSize: 0x84 }
+  - { offsetInCU: 0x46A3, offset: 0x46A3, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch14receiveSamplesEPfj, symObjAddr: 0x134C, symBinAddr: 0x934C, symSize: 0x58 }
+  - { offsetInCU: 0x46F7, offset: 0x46F7, size: 0x8, addend: 0x0, symName: __ZN10soundtouch13FIFOProcessor14receiveSamplesEPfj, symObjAddr: 0x13A4, symBinAddr: 0x93A4, symSize: 0x40 }
+  - { offsetInCU: 0x4737, offset: 0x4737, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch14receiveSamplesEj, symObjAddr: 0x13E4, symBinAddr: 0x93E4, symSize: 0x50 }
+  - { offsetInCU: 0x477C, offset: 0x477C, size: 0x8, addend: 0x0, symName: __ZN10soundtouch13FIFOProcessor14receiveSamplesEj, symObjAddr: 0x1434, symBinAddr: 0x9434, symSize: 0x38 }
+  - { offsetInCU: 0x47AE, offset: 0x47AE, size: 0x8, addend: 0x0, symName: __ZN10soundtouch10SoundTouch25getInputOutputSampleRatioEv, symObjAddr: 0x146C, symBinAddr: 0x946C, symSize: 0x28 }
+  - { offsetInCU: 0x47D5, offset: 0x47D5, size: 0x8, addend: 0x0, symName: __ZN10soundtouch13FIFOProcessor8ptrBeginEv, symObjAddr: 0x1494, symBinAddr: 0x9494, symSize: 0x30 }
+  - { offsetInCU: 0x47F9, offset: 0x47F9, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch13FIFOProcessor10numSamplesEv, symObjAddr: 0x14C4, symBinAddr: 0x94C4, symSize: 0x30 }
+  - { offsetInCU: 0x481D, offset: 0x481D, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch13FIFOProcessor7isEmptyEv, symObjAddr: 0x14F4, symBinAddr: 0x94F4, symSize: 0x30 }
+  - { offsetInCU: 0x4841, offset: 0x4841, size: 0x8, addend: 0x0, symName: __ZN10soundtouch13FIFOProcessor21adjustAmountOfSamplesEj, symObjAddr: 0x1524, symBinAddr: 0x9524, symSize: 0x38 }
+  - { offsetInCU: 0x4873, offset: 0x4873, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14FIFOSamplePipeC2Ev, symObjAddr: 0x155C, symBinAddr: 0x955C, symSize: 0x24 }
+  - { offsetInCU: 0x489D, offset: 0x489D, size: 0x8, addend: 0x0, symName: __ZN10soundtouch13FIFOProcessorD1Ev, symObjAddr: 0x1580, symBinAddr: 0x9580, symSize: 0x14 }
+  - { offsetInCU: 0x48C5, offset: 0x48C5, size: 0x8, addend: 0x0, symName: __ZN10soundtouch13FIFOProcessorD0Ev, symObjAddr: 0x1594, symBinAddr: 0x9594, symSize: 0xC }
+  - { offsetInCU: 0x48ED, offset: 0x48ED, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14FIFOSamplePipeD1Ev, symObjAddr: 0x15A0, symBinAddr: 0x95A0, symSize: 0x14 }
+  - { offsetInCU: 0x4915, offset: 0x4915, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14FIFOSamplePipeD0Ev, symObjAddr: 0x15B4, symBinAddr: 0x95B4, symSize: 0xC }
+  - { offsetInCU: 0x493D, offset: 0x493D, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14FIFOSamplePipeD2Ev, symObjAddr: 0x15C0, symBinAddr: 0x95C0, symSize: 0x14 }
+  - { offsetInCU: 0x26, offset: 0x49AE, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBufferC2Ei, symObjAddr: 0x0, symBinAddr: 0x95D4, symSize: 0xE4 }
+  - { offsetInCU: 0x2D11, offset: 0x7699, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBufferC2Ei, symObjAddr: 0x0, symBinAddr: 0x95D4, symSize: 0xE4 }
+  - { offsetInCU: 0x2D49, offset: 0x76D1, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer14ensureCapacityEj, symObjAddr: 0x108, symBinAddr: 0x96B8, symSize: 0x208 }
+  - { offsetInCU: 0x2D99, offset: 0x7721, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBufferC1Ei, symObjAddr: 0x324, symBinAddr: 0x98C0, symSize: 0x34 }
+  - { offsetInCU: 0x2DD1, offset: 0x7759, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBufferD2Ev, symObjAddr: 0x358, symBinAddr: 0x98F4, symSize: 0x74 }
+  - { offsetInCU: 0x2DFB, offset: 0x7783, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBufferD1Ev, symObjAddr: 0x3CC, symBinAddr: 0x9968, symSize: 0x2C }
+  - { offsetInCU: 0x2E25, offset: 0x77AD, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBufferD0Ev, symObjAddr: 0x3F8, symBinAddr: 0x9994, symSize: 0x30 }
+  - { offsetInCU: 0x2E4F, offset: 0x77D7, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer11setChannelsEi, symObjAddr: 0x428, symBinAddr: 0x99C4, symSize: 0x6C }
+  - { offsetInCU: 0x2E91, offset: 0x7819, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer6rewindEv, symObjAddr: 0x53C, symBinAddr: 0x9A30, symSize: 0x9C }
+  - { offsetInCU: 0x2EB7, offset: 0x783F, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer10putSamplesEPKfj, symObjAddr: 0x5D8, symBinAddr: 0x9ACC, symSize: 0x6C }
+  - { offsetInCU: 0x2EF9, offset: 0x7881, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer6ptrEndEj, symObjAddr: 0x644, symBinAddr: 0x9B38, symSize: 0x50 }
+  - { offsetInCU: 0x2F2D, offset: 0x78B5, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer10putSamplesEj, symObjAddr: 0x694, symBinAddr: 0x9B88, symSize: 0x54 }
+  - { offsetInCU: 0x2F6F, offset: 0x78F7, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer8ptrBeginEv, symObjAddr: 0x6E8, symBinAddr: 0x9BDC, symSize: 0x74 }
+  - { offsetInCU: 0x2F95, offset: 0x791D, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch16FIFOSampleBuffer11getCapacityEv, symObjAddr: 0x75C, symBinAddr: 0x9C50, symSize: 0x28 }
+  - { offsetInCU: 0x2FBB, offset: 0x7943, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch16FIFOSampleBuffer10numSamplesEv, symObjAddr: 0x784, symBinAddr: 0x9C78, symSize: 0x18 }
+  - { offsetInCU: 0x2FE1, offset: 0x7969, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer14receiveSamplesEPfj, symObjAddr: 0x79C, symBinAddr: 0x9C90, symSize: 0xB4 }
+  - { offsetInCU: 0x3031, offset: 0x79B9, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer14receiveSamplesEj, symObjAddr: 0x850, symBinAddr: 0x9D44, symSize: 0x84 }
+  - { offsetInCU: 0x3081, offset: 0x7A09, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch16FIFOSampleBuffer7isEmptyEv, symObjAddr: 0x8D4, symBinAddr: 0x9DC8, symSize: 0x30 }
+  - { offsetInCU: 0x30A7, offset: 0x7A2F, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer5clearEv, symObjAddr: 0x904, symBinAddr: 0x9DF8, symSize: 0x1C }
+  - { offsetInCU: 0x30CD, offset: 0x7A55, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer21adjustAmountOfSamplesEj, symObjAddr: 0x920, symBinAddr: 0x9E14, symSize: 0x4C }
+  - { offsetInCU: 0x3103, offset: 0x7A8B, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer9addSilentEj, symObjAddr: 0x96C, symBinAddr: 0x9E60, symSize: 0x64 }
+  - { offsetInCU: 0x26, offset: 0x7AF1, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9FIRFilterC2Ev, symObjAddr: 0x0, symBinAddr: 0x9EC4, symSize: 0x40 }
+  - { offsetInCU: 0xD8E, offset: 0x8859, size: 0x8, addend: 0x0, symName: __Z3powB8ue170006IdiENSt3__19enable_ifIXaasr3std13is_arithmeticIT_EE5valuesr3std13is_arithmeticIT0_EE5valueENS0_9__promoteIS2_S3_vEEE4type4typeES2_S3_, symObjAddr: 0xB50, symBinAddr: 0xAA14, symSize: 0x38 }
+  - { offsetInCU: 0x2B9A, offset: 0xA665, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9FIRFilterC2Ev, symObjAddr: 0x0, symBinAddr: 0x9EC4, symSize: 0x40 }
+  - { offsetInCU: 0x2BC4, offset: 0xA68F, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9FIRFilterC1Ev, symObjAddr: 0x40, symBinAddr: 0x9F04, symSize: 0x2C }
+  - { offsetInCU: 0x2BEE, offset: 0xA6B9, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9FIRFilterD2Ev, symObjAddr: 0x6C, symBinAddr: 0x9F30, symSize: 0x8C }
+  - { offsetInCU: 0x2C18, offset: 0xA6E3, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9FIRFilterD1Ev, symObjAddr: 0xF8, symBinAddr: 0x9FBC, symSize: 0x2C }
+  - { offsetInCU: 0x2C42, offset: 0xA70D, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9FIRFilterD0Ev, symObjAddr: 0x124, symBinAddr: 0x9FE8, symSize: 0x30 }
+  - { offsetInCU: 0x2C6C, offset: 0xA737, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch9FIRFilter20evaluateFilterStereoEPfPKfj, symObjAddr: 0x154, symBinAddr: 0xA018, symSize: 0x26C }
+  - { offsetInCU: 0x2D3A, offset: 0xA805, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch9FIRFilter18evaluateFilterMonoEPfPKfj, symObjAddr: 0x3C0, symBinAddr: 0xA284, symSize: 0x140 }
+  - { offsetInCU: 0x2DEC, offset: 0xA8B7, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9FIRFilter19evaluateFilterMultiEPfPKfjj, symObjAddr: 0x500, symBinAddr: 0xA3C4, symSize: 0x358 }
+  - { offsetInCU: 0x2EDA, offset: 0xA9A5, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9FIRFilter15setCoefficientsEPKfjj, symObjAddr: 0x858, symBinAddr: 0xA71C, symSize: 0x2F8 }
+  - { offsetInCU: 0x2F54, offset: 0xAA1F, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch9FIRFilter9getLengthEv, symObjAddr: 0xB88, symBinAddr: 0xAA4C, symSize: 0x18 }
+  - { offsetInCU: 0x2F7A, offset: 0xAA45, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9FIRFilter8evaluateEPfPKfjj, symObjAddr: 0xBA0, symBinAddr: 0xAA64, symSize: 0x1A4 }
+  - { offsetInCU: 0x2FD8, offset: 0xAAA3, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9FIRFilternwEm, symObjAddr: 0xD44, symBinAddr: 0xAC08, symSize: 0x68 }
+  - { offsetInCU: 0x2FFA, offset: 0xAAC5, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9FIRFilter11newInstanceEv, symObjAddr: 0xDAC, symBinAddr: 0xAC70, symSize: 0x34 }
+  - { offsetInCU: 0x26, offset: 0xAB22, size: 0x8, addend: 0x0, symName: __ZN10soundtouch18InterpolateShannonC2Ev, symObjAddr: 0x0, symBinAddr: 0xACA4, symSize: 0x4C }
+  - { offsetInCU: 0x52, offset: 0xAB4E, size: 0x8, addend: 0x0, symName: __ZL8_kaiser8, symObjAddr: 0xCC8, symBinAddr: 0x121A8, symSize: 0x0 }
+  - { offsetInCU: 0x3032, offset: 0xDB2E, size: 0x8, addend: 0x0, symName: __ZN10soundtouch18InterpolateShannonC2Ev, symObjAddr: 0x0, symBinAddr: 0xACA4, symSize: 0x4C }
+  - { offsetInCU: 0x305C, offset: 0xDB58, size: 0x8, addend: 0x0, symName: __ZN10soundtouch18InterpolateShannonC1Ev, symObjAddr: 0x4C, symBinAddr: 0xACF0, symSize: 0x2C }
+  - { offsetInCU: 0x3086, offset: 0xDB82, size: 0x8, addend: 0x0, symName: __ZN10soundtouch18InterpolateShannon14resetRegistersEv, symObjAddr: 0x78, symBinAddr: 0xAD1C, symSize: 0x1C }
+  - { offsetInCU: 0x30AC, offset: 0xDBA8, size: 0x8, addend: 0x0, symName: __ZN10soundtouch18InterpolateShannon13transposeMonoEPfPKfRi, symObjAddr: 0x94, symBinAddr: 0xAD38, symSize: 0x4C0 }
+  - { offsetInCU: 0x3150, offset: 0xDC4C, size: 0x8, addend: 0x0, symName: __ZN10soundtouch18InterpolateShannon15transposeStereoEPfPKfRi, symObjAddr: 0x554, symBinAddr: 0xB1F8, symSize: 0x5AC }
+  - { offsetInCU: 0x3212, offset: 0xDD0E, size: 0x8, addend: 0x0, symName: __ZN10soundtouch18InterpolateShannon14transposeMultiEPfPKfRi, symObjAddr: 0xB00, symBinAddr: 0xB7A4, symSize: 0x3C }
+  - { offsetInCU: 0x3256, offset: 0xDD52, size: 0x8, addend: 0x0, symName: __ZN10soundtouch18InterpolateShannonD1Ev, symObjAddr: 0xB3C, symBinAddr: 0xB7E0, symSize: 0x2C }
+  - { offsetInCU: 0x3280, offset: 0xDD7C, size: 0x8, addend: 0x0, symName: __ZN10soundtouch18InterpolateShannonD0Ev, symObjAddr: 0xB68, symBinAddr: 0xB80C, symSize: 0x30 }
+  - { offsetInCU: 0x32AA, offset: 0xDDA6, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch18InterpolateShannon10getLatencyEv, symObjAddr: 0xB98, symBinAddr: 0xB83C, symSize: 0x14 }
+  - { offsetInCU: 0x32CE, offset: 0xDDCA, size: 0x8, addend: 0x0, symName: __ZN10soundtouch18InterpolateShannonD2Ev, symObjAddr: 0xBAC, symBinAddr: 0xB850, symSize: 0x2C }
+  - { offsetInCU: 0x26, offset: 0xDE24, size: 0x8, addend: 0x0, symName: __ZN10soundtouch8AAFilterC2Ej, symObjAddr: 0x0, symBinAddr: 0xB87C, symSize: 0x4C }
+  - { offsetInCU: 0x2FC4, offset: 0x10DC2, size: 0x8, addend: 0x0, symName: __ZN10soundtouch8AAFilterC2Ej, symObjAddr: 0x0, symBinAddr: 0xB87C, symSize: 0x4C }
+  - { offsetInCU: 0x2FFC, offset: 0x10DFA, size: 0x8, addend: 0x0, symName: __ZN10soundtouch8AAFilter9setLengthEj, symObjAddr: 0x4C, symBinAddr: 0xB8C8, symSize: 0x30 }
+  - { offsetInCU: 0x3030, offset: 0x10E2E, size: 0x8, addend: 0x0, symName: __ZN10soundtouch8AAFilterC1Ej, symObjAddr: 0x7C, symBinAddr: 0xB8F8, symSize: 0x34 }
+  - { offsetInCU: 0x3068, offset: 0x10E66, size: 0x8, addend: 0x0, symName: __ZN10soundtouch8AAFilterD2Ev, symObjAddr: 0xB0, symBinAddr: 0xB92C, symSize: 0x58 }
+  - { offsetInCU: 0x3092, offset: 0x10E90, size: 0x8, addend: 0x0, symName: __ZN10soundtouch8AAFilterD1Ev, symObjAddr: 0x108, symBinAddr: 0xB984, symSize: 0x2C }
+  - { offsetInCU: 0x30BC, offset: 0x10EBA, size: 0x8, addend: 0x0, symName: __ZN10soundtouch8AAFilter13setCutoffFreqEd, symObjAddr: 0x134, symBinAddr: 0xB9B0, symSize: 0x30 }
+  - { offsetInCU: 0x30F0, offset: 0x10EEE, size: 0x8, addend: 0x0, symName: __ZN10soundtouch8AAFilter15calculateCoeffsEv, symObjAddr: 0x164, symBinAddr: 0xB9E0, symSize: 0x56C }
+  - { offsetInCU: 0x31B1, offset: 0x10FAF, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch8AAFilter8evaluateEPfPKfjj, symObjAddr: 0x6D0, symBinAddr: 0xBF4C, symSize: 0x48 }
+  - { offsetInCU: 0x320F, offset: 0x1100D, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch8AAFilter8evaluateERNS_16FIFOSampleBufferES2_, symObjAddr: 0x718, symBinAddr: 0xBF94, symSize: 0x104 }
+  - { offsetInCU: 0x3297, offset: 0x11095, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16FIFOSampleBuffer11getChannelsEv, symObjAddr: 0x81C, symBinAddr: 0xC098, symSize: 0x18 }
+  - { offsetInCU: 0x32BB, offset: 0x110B9, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch8AAFilter9getLengthEv, symObjAddr: 0x834, symBinAddr: 0xC0B0, symSize: 0x28 }
+  - { offsetInCU: 0x26, offset: 0x11119, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretchC2Ev, symObjAddr: 0x0, symBinAddr: 0xC0D8, symSize: 0x148 }
+  - { offsetInCU: 0x335F, offset: 0x14452, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretchC2Ev, symObjAddr: 0x0, symBinAddr: 0xC0D8, symSize: 0x148 }
+  - { offsetInCU: 0x3389, offset: 0x1447C, size: 0x8, addend: 0x0, symName: __ZN10soundtouch13FIFOProcessorC2EPNS_14FIFOSamplePipeE, symObjAddr: 0x148, symBinAddr: 0xC220, symSize: 0x50 }
+  - { offsetInCU: 0x33BF, offset: 0x144B2, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch13setParametersEiiii, symObjAddr: 0x198, symBinAddr: 0xC270, symSize: 0x1B0 }
+  - { offsetInCU: 0x341D, offset: 0x14510, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch8setTempoEd, symObjAddr: 0x348, symBinAddr: 0xC420, symSize: 0xC4 }
+  - { offsetInCU: 0x3462, offset: 0x14555, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretchC1Ev, symObjAddr: 0x438, symBinAddr: 0xC4E4, symSize: 0x2C }
+  - { offsetInCU: 0x348C, offset: 0x1457F, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretchD2Ev, symObjAddr: 0x464, symBinAddr: 0xC510, symSize: 0x84 }
+  - { offsetInCU: 0x34B6, offset: 0x145A9, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretchD1Ev, symObjAddr: 0x4E8, symBinAddr: 0xC594, symSize: 0x2C }
+  - { offsetInCU: 0x34E0, offset: 0x145D3, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretchD0Ev, symObjAddr: 0x514, symBinAddr: 0xC5C0, symSize: 0x30 }
+  - { offsetInCU: 0x350A, offset: 0x145FD, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch17calcSeqParametersEv, symObjAddr: 0x544, symBinAddr: 0xC5F0, symSize: 0x1FC }
+  - { offsetInCU: 0x354F, offset: 0x14642, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch22calculateOverlapLengthEi, symObjAddr: 0x740, symBinAddr: 0xC7EC, symSize: 0xC8 }
+  - { offsetInCU: 0x3594, offset: 0x14687, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch9TDStretch13getParametersEPiS1_S1_S1_, symObjAddr: 0x808, symBinAddr: 0xC8B4, symSize: 0x118 }
+  - { offsetInCU: 0x35F2, offset: 0x146E5, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch9TDStretch11overlapMonoEPfPKf, symObjAddr: 0x920, symBinAddr: 0xC9CC, symSize: 0xCC }
+  - { offsetInCU: 0x365E, offset: 0x14751, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch14clearMidBufferEv, symObjAddr: 0x9EC, symBinAddr: 0xCA98, symSize: 0x38 }
+  - { offsetInCU: 0x3684, offset: 0x14777, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch10clearInputEv, symObjAddr: 0xA24, symBinAddr: 0xCAD0, symSize: 0x5C }
+  - { offsetInCU: 0x36AA, offset: 0x1479D, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch5clearEv, symObjAddr: 0xA80, symBinAddr: 0xCB2C, symSize: 0x34 }
+  - { offsetInCU: 0x36D0, offset: 0x147C3, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch15enableQuickSeekEb, symObjAddr: 0xAB4, symBinAddr: 0xCB60, symSize: 0x2C }
+  - { offsetInCU: 0x3704, offset: 0x147F7, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch9TDStretch18isQuickSeekEnabledEv, symObjAddr: 0xAE0, symBinAddr: 0xCB8C, symSize: 0x1C }
+  - { offsetInCU: 0x372A, offset: 0x1481D, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch23seekBestOverlapPositionEPKf, symObjAddr: 0xAFC, symBinAddr: 0xCBA8, symSize: 0x70 }
+  - { offsetInCU: 0x375E, offset: 0x14851, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch27seekBestOverlapPositionFullEPKf, symObjAddr: 0xB6C, symBinAddr: 0xCC18, symSize: 0x19C }
+  - { offsetInCU: 0x37FC, offset: 0x148EF, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch28seekBestOverlapPositionQuickEPKf, symObjAddr: 0xD08, symBinAddr: 0xCDB4, symSize: 0x478 }
+  - { offsetInCU: 0x3901, offset: 0x149F4, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch15adaptNormalizerEv, symObjAddr: 0x1180, symBinAddr: 0xD22C, symSize: 0x160 }
+  - { offsetInCU: 0x3928, offset: 0x14A1B, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch19clearCrossCorrStateEv, symObjAddr: 0x12E0, symBinAddr: 0xD38C, symSize: 0x10 }
+  - { offsetInCU: 0x394F, offset: 0x14A42, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch11setChannelsEi, symObjAddr: 0x12F0, symBinAddr: 0xD39C, symSize: 0xA0 }
+  - { offsetInCU: 0x3985, offset: 0x14A78, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch14processSamplesEv, symObjAddr: 0x1438, symBinAddr: 0xD43C, symSize: 0x2F8 }
+  - { offsetInCU: 0x39F6, offset: 0x14AE9, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch9TDStretch7overlapEPfPKfj, symObjAddr: 0x1730, symBinAddr: 0xD734, symSize: 0x118 }
+  - { offsetInCU: 0x3A46, offset: 0x14B39, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch10putSamplesEPKfj, symObjAddr: 0x1848, symBinAddr: 0xD84C, symSize: 0x44 }
+  - { offsetInCU: 0x3A8B, offset: 0x14B7E, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch22acceptNewOverlapLengthEi, symObjAddr: 0x188C, symBinAddr: 0xD890, symSize: 0x118 }
+  - { offsetInCU: 0x3AD0, offset: 0x14BC3, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretchnwEm, symObjAddr: 0x19A4, symBinAddr: 0xD9A8, symSize: 0x68 }
+  - { offsetInCU: 0x3AF2, offset: 0x14BE5, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch11newInstanceEv, symObjAddr: 0x1A0C, symBinAddr: 0xDA10, symSize: 0x5C }
+  - { offsetInCU: 0x3B18, offset: 0x14C0B, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch9TDStretch13overlapStereoEPfPKf, symObjAddr: 0x1A68, symBinAddr: 0xDA6C, symSize: 0x124 }
+  - { offsetInCU: 0x3B99, offset: 0x14C8C, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch9TDStretch12overlapMultiEPfPKf, symObjAddr: 0x1B8C, symBinAddr: 0xDB90, symSize: 0x118 }
+  - { offsetInCU: 0x3C54, offset: 0x14D47, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch13calcCrossCorrEPKfS2_Rd, symObjAddr: 0x1CA4, symBinAddr: 0xDCA8, symSize: 0x124 }
+  - { offsetInCU: 0x3CE4, offset: 0x14DD7, size: 0x8, addend: 0x0, symName: __ZN10soundtouch9TDStretch23calcCrossCorrAccumulateEPKfS2_Rd, symObjAddr: 0x1DC8, symBinAddr: 0xDDCC, symSize: 0x1E0 }
+  - { offsetInCU: 0x26, offset: 0x14EB1, size: 0x8, addend: 0x0, symName: __ZN10soundtouch24InterpolateLinearIntegerC2Ev, symObjAddr: 0x0, symBinAddr: 0xDFAC, symSize: 0x94 }
+  - { offsetInCU: 0x3137, offset: 0x17FC2, size: 0x8, addend: 0x0, symName: __ZN10soundtouch24InterpolateLinearIntegerC2Ev, symObjAddr: 0x0, symBinAddr: 0xDFAC, symSize: 0x94 }
+  - { offsetInCU: 0x3161, offset: 0x17FEC, size: 0x8, addend: 0x0, symName: __ZN10soundtouch24InterpolateLinearIntegerC1Ev, symObjAddr: 0x94, symBinAddr: 0xE040, symSize: 0x2C }
+  - { offsetInCU: 0x318B, offset: 0x18016, size: 0x8, addend: 0x0, symName: __ZN10soundtouch24InterpolateLinearInteger14resetRegistersEv, symObjAddr: 0xC0, symBinAddr: 0xE06C, symSize: 0x18 }
+  - { offsetInCU: 0x31B1, offset: 0x1803C, size: 0x8, addend: 0x0, symName: __ZN10soundtouch24InterpolateLinearInteger13transposeMonoEPfPKfRi, symObjAddr: 0xD8, symBinAddr: 0xE084, symSize: 0x160 }
+  - { offsetInCU: 0x3255, offset: 0x180E0, size: 0x8, addend: 0x0, symName: __ZN10soundtouch24InterpolateLinearInteger15transposeStereoEPfPKfRi, symObjAddr: 0x238, symBinAddr: 0xE1E4, symSize: 0x1B0 }
+  - { offsetInCU: 0x3307, offset: 0x18192, size: 0x8, addend: 0x0, symName: __ZN10soundtouch24InterpolateLinearInteger14transposeMultiEPfPKfRi, symObjAddr: 0x3E8, symBinAddr: 0xE394, symSize: 0x1CC }
+  - { offsetInCU: 0x33D5, offset: 0x18260, size: 0x8, addend: 0x0, symName: __ZN10soundtouch24InterpolateLinearInteger7setRateEd, symObjAddr: 0x5B4, symBinAddr: 0xE560, symSize: 0x48 }
+  - { offsetInCU: 0x3418, offset: 0x182A3, size: 0x8, addend: 0x0, symName: __ZN10soundtouch22InterpolateLinearFloatC2Ev, symObjAddr: 0x5FC, symBinAddr: 0xE5A8, symSize: 0x94 }
+  - { offsetInCU: 0x3442, offset: 0x182CD, size: 0x8, addend: 0x0, symName: __ZN10soundtouch22InterpolateLinearFloatC1Ev, symObjAddr: 0x690, symBinAddr: 0xE63C, symSize: 0x2C }
+  - { offsetInCU: 0x346C, offset: 0x182F7, size: 0x8, addend: 0x0, symName: __ZN10soundtouch22InterpolateLinearFloat14resetRegistersEv, symObjAddr: 0x6BC, symBinAddr: 0xE668, symSize: 0x1C }
+  - { offsetInCU: 0x3492, offset: 0x1831D, size: 0x8, addend: 0x0, symName: __ZN10soundtouch22InterpolateLinearFloat13transposeMonoEPfPKfRi, symObjAddr: 0x6D8, symBinAddr: 0xE684, symSize: 0x168 }
+  - { offsetInCU: 0x3536, offset: 0x183C1, size: 0x8, addend: 0x0, symName: __ZN10soundtouch22InterpolateLinearFloat15transposeStereoEPfPKfRi, symObjAddr: 0x840, symBinAddr: 0xE7EC, symSize: 0x1C0 }
+  - { offsetInCU: 0x35E8, offset: 0x18473, size: 0x8, addend: 0x0, symName: __ZN10soundtouch22InterpolateLinearFloat14transposeMultiEPfPKfRi, symObjAddr: 0xA00, symBinAddr: 0xE9AC, symSize: 0x188 }
+  - { offsetInCU: 0x36D2, offset: 0x1855D, size: 0x8, addend: 0x0, symName: __ZN10soundtouch24InterpolateLinearIntegerD1Ev, symObjAddr: 0xB88, symBinAddr: 0xEB34, symSize: 0x2C }
+  - { offsetInCU: 0x36FC, offset: 0x18587, size: 0x8, addend: 0x0, symName: __ZN10soundtouch24InterpolateLinearIntegerD0Ev, symObjAddr: 0xBB4, symBinAddr: 0xEB60, symSize: 0x30 }
+  - { offsetInCU: 0x3726, offset: 0x185B1, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch24InterpolateLinearInteger10getLatencyEv, symObjAddr: 0xBE4, symBinAddr: 0xEB90, symSize: 0x14 }
+  - { offsetInCU: 0x374A, offset: 0x185D5, size: 0x8, addend: 0x0, symName: __ZN10soundtouch22InterpolateLinearFloatD1Ev, symObjAddr: 0xBF8, symBinAddr: 0xEBA4, symSize: 0x2C }
+  - { offsetInCU: 0x3774, offset: 0x185FF, size: 0x8, addend: 0x0, symName: __ZN10soundtouch22InterpolateLinearFloatD0Ev, symObjAddr: 0xC24, symBinAddr: 0xEBD0, symSize: 0x30 }
+  - { offsetInCU: 0x379E, offset: 0x18629, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch22InterpolateLinearFloat10getLatencyEv, symObjAddr: 0xC54, symBinAddr: 0xEC00, symSize: 0x14 }
+  - { offsetInCU: 0x37C2, offset: 0x1864D, size: 0x8, addend: 0x0, symName: __ZN10soundtouch24InterpolateLinearIntegerD2Ev, symObjAddr: 0xC68, symBinAddr: 0xEC14, symSize: 0x2C }
+  - { offsetInCU: 0x37EC, offset: 0x18677, size: 0x8, addend: 0x0, symName: __ZN10soundtouch22InterpolateLinearFloatD2Ev, symObjAddr: 0xC94, symBinAddr: 0xEC40, symSize: 0x2C }
+  - { offsetInCU: 0x26, offset: 0x186DB, size: 0x8, addend: 0x0, symName: __Z17disableExtensionsj, symObjAddr: 0x0, symBinAddr: 0xEC6C, symSize: 0x1C }
+  - { offsetInCU: 0x3F, offset: 0x186F4, size: 0x8, addend: 0x0, symName: __ZL14_dwDisabledISA, symObjAddr: 0x55E0, symBinAddr: 0x18610, symSize: 0x0 }
+  - { offsetInCU: 0x2915, offset: 0x1AFCA, size: 0x8, addend: 0x0, symName: __Z17disableExtensionsj, symObjAddr: 0x0, symBinAddr: 0xEC6C, symSize: 0x1C }
+  - { offsetInCU: 0x293D, offset: 0x1AFF2, size: 0x8, addend: 0x0, symName: __Z19detectCPUextensionsv, symObjAddr: 0x1C, symBinAddr: 0xEC88, symSize: 0x8 }
+  - { offsetInCU: 0x26, offset: 0x1B035, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposerC2Ev, symObjAddr: 0x0, symBinAddr: 0xEC90, symSize: 0x18C }
+  - { offsetInCU: 0x39, offset: 0x1B048, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14TransposerBase9algorithmE, symObjAddr: 0xE4C, symBinAddr: 0x18600, symSize: 0x0 }
+  - { offsetInCU: 0x3319, offset: 0x1E328, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposerC2Ev, symObjAddr: 0x0, symBinAddr: 0xEC90, symSize: 0x18C }
+  - { offsetInCU: 0x3343, offset: 0x1E352, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14TransposerBase11newInstanceEv, symObjAddr: 0x1DC, symBinAddr: 0xEE1C, symSize: 0x13C }
+  - { offsetInCU: 0x3359, offset: 0x1E368, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposerC1Ev, symObjAddr: 0x344, symBinAddr: 0xEF58, symSize: 0x2C }
+  - { offsetInCU: 0x3383, offset: 0x1E392, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposerD2Ev, symObjAddr: 0x370, symBinAddr: 0xEF84, symSize: 0xC8 }
+  - { offsetInCU: 0x33AD, offset: 0x1E3BC, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposerD1Ev, symObjAddr: 0x438, symBinAddr: 0xF04C, symSize: 0x2C }
+  - { offsetInCU: 0x33D7, offset: 0x1E3E6, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposerD0Ev, symObjAddr: 0x464, symBinAddr: 0xF078, symSize: 0x30 }
+  - { offsetInCU: 0x3401, offset: 0x1E410, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposer14enableAAFilterEb, symObjAddr: 0x494, symBinAddr: 0xF0A8, symSize: 0x44 }
+  - { offsetInCU: 0x3435, offset: 0x1E444, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch14RateTransposer17isAAFilterEnabledEv, symObjAddr: 0x4D8, symBinAddr: 0xF0EC, symSize: 0x1C }
+  - { offsetInCU: 0x345B, offset: 0x1E46A, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposer11getAAFilterEv, symObjAddr: 0x4F4, symBinAddr: 0xF108, symSize: 0x18 }
+  - { offsetInCU: 0x3481, offset: 0x1E490, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposer7setRateEd, symObjAddr: 0x50C, symBinAddr: 0xF120, symSize: 0x8C }
+  - { offsetInCU: 0x34C3, offset: 0x1E4D2, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposer10putSamplesEPKfj, symObjAddr: 0x598, symBinAddr: 0xF1AC, symSize: 0x34 }
+  - { offsetInCU: 0x3505, offset: 0x1E514, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposer14processSamplesEPKfj, symObjAddr: 0x5CC, symBinAddr: 0xF1E0, symSize: 0x154 }
+  - { offsetInCU: 0x3547, offset: 0x1E556, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposer11setChannelsEi, symObjAddr: 0x720, symBinAddr: 0xF334, symSize: 0xA8 }
+  - { offsetInCU: 0x357B, offset: 0x1E58A, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14RateTransposer5clearEv, symObjAddr: 0x870, symBinAddr: 0xF3DC, symSize: 0x74 }
+  - { offsetInCU: 0x35AF, offset: 0x1E5BE, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch14RateTransposer10getLatencyEv, symObjAddr: 0x8E4, symBinAddr: 0xF450, symSize: 0x7C }
+  - { offsetInCU: 0x35D5, offset: 0x1E5E4, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch14RateTransposer7isEmptyEv, symObjAddr: 0x960, symBinAddr: 0xF4CC, symSize: 0x60 }
+  - { offsetInCU: 0x3609, offset: 0x1E618, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14TransposerBase12setAlgorithmENS0_9ALGORITHME, symObjAddr: 0x9F0, symBinAddr: 0xF52C, symSize: 0x1C }
+  - { offsetInCU: 0x362D, offset: 0x1E63C, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14TransposerBase9transposeERNS_16FIFOSampleBufferES2_, symObjAddr: 0xA0C, symBinAddr: 0xF548, symSize: 0x194 }
+  - { offsetInCU: 0x36B5, offset: 0x1E6C4, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14TransposerBaseC2Ev, symObjAddr: 0xBA0, symBinAddr: 0xF6DC, symSize: 0x30 }
+  - { offsetInCU: 0x36E0, offset: 0x1E6EF, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14TransposerBaseD2Ev, symObjAddr: 0xBD0, symBinAddr: 0xF70C, symSize: 0x14 }
+  - { offsetInCU: 0x370B, offset: 0x1E71A, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14TransposerBaseD1Ev, symObjAddr: 0xBE4, symBinAddr: 0xF720, symSize: 0x14 }
+  - { offsetInCU: 0x3736, offset: 0x1E745, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14TransposerBaseD0Ev, symObjAddr: 0xBF8, symBinAddr: 0xF734, symSize: 0xC }
+  - { offsetInCU: 0x3761, offset: 0x1E770, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14TransposerBase11setChannelsEi, symObjAddr: 0xC04, symBinAddr: 0xF740, symSize: 0x38 }
+  - { offsetInCU: 0x3797, offset: 0x1E7A6, size: 0x8, addend: 0x0, symName: __ZN10soundtouch14TransposerBase7setRateEd, symObjAddr: 0xC3C, symBinAddr: 0xF778, symSize: 0x20 }
+  - { offsetInCU: 0x26, offset: 0x1E80C, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16InterpolateCubicC2Ev, symObjAddr: 0x0, symBinAddr: 0xF798, symSize: 0x4C }
+  - { offsetInCU: 0x52, offset: 0x1E838, size: 0x8, addend: 0x0, symName: __ZL7_coeffs, symObjAddr: 0xA68, symBinAddr: 0x12348, symSize: 0x0 }
+  - { offsetInCU: 0x3027, offset: 0x2180D, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16InterpolateCubicC2Ev, symObjAddr: 0x0, symBinAddr: 0xF798, symSize: 0x4C }
+  - { offsetInCU: 0x3051, offset: 0x21837, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16InterpolateCubicC1Ev, symObjAddr: 0x4C, symBinAddr: 0xF7E4, symSize: 0x2C }
+  - { offsetInCU: 0x307B, offset: 0x21861, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16InterpolateCubic14resetRegistersEv, symObjAddr: 0x78, symBinAddr: 0xF810, symSize: 0x1C }
+  - { offsetInCU: 0x30A1, offset: 0x21887, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16InterpolateCubic13transposeMonoEPfPKfRi, symObjAddr: 0x94, symBinAddr: 0xF82C, symSize: 0x280 }
+  - { offsetInCU: 0x31B5, offset: 0x2199B, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16InterpolateCubic15transposeStereoEPfPKfRi, symObjAddr: 0x314, symBinAddr: 0xFAAC, symSize: 0x2E8 }
+  - { offsetInCU: 0x32D7, offset: 0x21ABD, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16InterpolateCubic14transposeMultiEPfPKfRi, symObjAddr: 0x5FC, symBinAddr: 0xFD94, symSize: 0x304 }
+  - { offsetInCU: 0x3415, offset: 0x21BFB, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16InterpolateCubicD1Ev, symObjAddr: 0x900, symBinAddr: 0x10098, symSize: 0x2C }
+  - { offsetInCU: 0x343F, offset: 0x21C25, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16InterpolateCubicD0Ev, symObjAddr: 0x92C, symBinAddr: 0x100C4, symSize: 0x30 }
+  - { offsetInCU: 0x3469, offset: 0x21C4F, size: 0x8, addend: 0x0, symName: __ZNK10soundtouch16InterpolateCubic10getLatencyEv, symObjAddr: 0x95C, symBinAddr: 0x100F4, symSize: 0x14 }
+  - { offsetInCU: 0x348D, offset: 0x21C73, size: 0x8, addend: 0x0, symName: __ZN10soundtouch16InterpolateCubicD2Ev, symObjAddr: 0x970, symBinAddr: 0x10108, symSize: 0x2C }
+  - { offsetInCU: 0x1E, offset: 0x21CC5, size: 0x8, addend: 0x0, symName: '-[SettingsView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x10134, symSize: 0x510 }
+  - { offsetInCU: 0x2B, offset: 0x21CD2, size: 0x8, addend: 0x0, symName: '+[OverlayView sharedInstance]', symObjAddr: 0x70C, symBinAddr: 0x10840, symSize: 0x40 }
+  - { offsetInCU: 0x54, offset: 0x21CFB, size: 0x8, addend: 0x0, symName: '__ZZ29+[OverlayView sharedInstance]E7overlay', symObjAddr: 0x11F40, symBinAddr: 0x18618, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x21D10, size: 0x8, addend: 0x0, symName: '__ZZ29+[OverlayView sharedInstance]E9onceToken', symObjAddr: 0x11F48, symBinAddr: 0x18620, symSize: 0x0 }
+  - { offsetInCU: 0x94C, offset: 0x225F3, size: 0x8, addend: 0x0, symName: __ZL13soundTouchPtr, symObjAddr: 0x11F50, symBinAddr: 0x18628, symSize: 0x0 }
+  - { offsetInCU: 0xF92, offset: 0x22C39, size: 0x8, addend: 0x0, symName: __ZL22hooked_AudioUnitRenderP28OpaqueAudioComponentInstancePjPK14AudioTimeStampjjP15AudioBufferList, symObjAddr: 0xA74, symBinAddr: 0x10BA8, symSize: 0x3FC }
+  - { offsetInCU: 0xFBB, offset: 0x22C62, size: 0x8, addend: 0x0, symName: __ZZL22hooked_AudioUnitRenderP28OpaqueAudioComponentInstancePjPK14AudioTimeStampjjP15AudioBufferListE9lastPitch, symObjAddr: 0x1C20, symBinAddr: 0x18604, symSize: 0x0 }
+  - { offsetInCU: 0xFD0, offset: 0x22C77, size: 0x8, addend: 0x0, symName: __ZZL22hooked_AudioUnitRenderP28OpaqueAudioComponentInstancePjPK14AudioTimeStampjjP15AudioBufferListE9lastTempo, symObjAddr: 0x1C24, symBinAddr: 0x18608, symSize: 0x0 }
+  - { offsetInCU: 0xFE5, offset: 0x22C8C, size: 0x8, addend: 0x0, symName: __ZZL22hooked_AudioUnitRenderP28OpaqueAudioComponentInstancePjPK14AudioTimeStampjjP15AudioBufferListE8lastRate, symObjAddr: 0x1C28, symBinAddr: 0x1860C, symSize: 0x0 }
+  - { offsetInCU: 0x12A7, offset: 0x22F4E, size: 0x8, addend: 0x0, symName: __ZL20orig_AudioUnitRender, symObjAddr: 0x11F58, symBinAddr: 0x18630, symSize: 0x0 }
+  - { offsetInCU: 0x1577, offset: 0x2321E, size: 0x8, addend: 0x0, symName: '__ZL79_logos_orig$_ungrouped$UIApplication$application$didFinishLaunchingWithOptions$', symObjAddr: 0x11F60, symBinAddr: 0x18638, symSize: 0x0 }
+  - { offsetInCU: 0x4676, offset: 0x2631D, size: 0x8, addend: 0x0, symName: '-[SettingsView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0x10134, symSize: 0x510 }
+  - { offsetInCU: 0x4770, offset: 0x26417, size: 0x8, addend: 0x0, symName: '-[SettingsView closeTapped]', symObjAddr: 0x510, symBinAddr: 0x10644, symSize: 0x4 }
+  - { offsetInCU: 0x47B9, offset: 0x26460, size: 0x8, addend: 0x0, symName: '-[SettingsView pitchChanged:]', symObjAddr: 0x514, symBinAddr: 0x10648, symSize: 0x70 }
+  - { offsetInCU: 0x485A, offset: 0x26501, size: 0x8, addend: 0x0, symName: '-[SettingsView tempoChanged:]', symObjAddr: 0x584, symBinAddr: 0x106B8, symSize: 0x70 }
+  - { offsetInCU: 0x48EB, offset: 0x26592, size: 0x8, addend: 0x0, symName: '-[SettingsView rateChanged:]', symObjAddr: 0x5F4, symBinAddr: 0x10728, symSize: 0x70 }
+  - { offsetInCU: 0x4962, offset: 0x26609, size: 0x8, addend: 0x0, symName: '-[SettingsView bgView]', symObjAddr: 0x664, symBinAddr: 0x10798, symSize: 0x10 }
+  - { offsetInCU: 0x4998, offset: 0x2663F, size: 0x8, addend: 0x0, symName: '-[SettingsView setBgView:]', symObjAddr: 0x674, symBinAddr: 0x107A8, symSize: 0xC }
+  - { offsetInCU: 0x49D5, offset: 0x2667C, size: 0x8, addend: 0x0, symName: '-[SettingsView container]', symObjAddr: 0x680, symBinAddr: 0x107B4, symSize: 0x10 }
+  - { offsetInCU: 0x4A0B, offset: 0x266B2, size: 0x8, addend: 0x0, symName: '-[SettingsView setContainer:]', symObjAddr: 0x690, symBinAddr: 0x107C4, symSize: 0xC }
+  - { offsetInCU: 0x4A48, offset: 0x266EF, size: 0x8, addend: 0x0, symName: '-[SettingsView pitchSlider]', symObjAddr: 0x69C, symBinAddr: 0x107D0, symSize: 0x10 }
+  - { offsetInCU: 0x4A7E, offset: 0x26725, size: 0x8, addend: 0x0, symName: '-[SettingsView setPitchSlider:]', symObjAddr: 0x6AC, symBinAddr: 0x107E0, symSize: 0xC }
+  - { offsetInCU: 0x4ABB, offset: 0x26762, size: 0x8, addend: 0x0, symName: '-[SettingsView tempoSlider]', symObjAddr: 0x6B8, symBinAddr: 0x107EC, symSize: 0x10 }
+  - { offsetInCU: 0x4AF1, offset: 0x26798, size: 0x8, addend: 0x0, symName: '-[SettingsView setTempoSlider:]', symObjAddr: 0x6C8, symBinAddr: 0x107FC, symSize: 0xC }
+  - { offsetInCU: 0x4B2E, offset: 0x267D5, size: 0x8, addend: 0x0, symName: '-[SettingsView rateSlider]', symObjAddr: 0x6D4, symBinAddr: 0x10808, symSize: 0x10 }
+  - { offsetInCU: 0x4B64, offset: 0x2680B, size: 0x8, addend: 0x0, symName: '-[SettingsView setRateSlider:]', symObjAddr: 0x6E4, symBinAddr: 0x10818, symSize: 0xC }
+  - { offsetInCU: 0x4BA1, offset: 0x26848, size: 0x8, addend: 0x0, symName: '-[SettingsView closeBtn]', symObjAddr: 0x6F0, symBinAddr: 0x10824, symSize: 0x10 }
+  - { offsetInCU: 0x4BD7, offset: 0x2687E, size: 0x8, addend: 0x0, symName: '-[SettingsView setCloseBtn:]', symObjAddr: 0x700, symBinAddr: 0x10834, symSize: 0xC }
+  - { offsetInCU: 0x4CBA, offset: 0x26961, size: 0x8, addend: 0x0, symName: '___29+[OverlayView sharedInstance]_block_invoke', symObjAddr: 0x74C, symBinAddr: 0x10880, symSize: 0x68 }
+  - { offsetInCU: 0x4CFE, offset: 0x269A5, size: 0x8, addend: 0x0, symName: '-[OverlayView initWithFrame:]', symObjAddr: 0x7B4, symBinAddr: 0x108E8, symSize: 0xB8 }
+  - { offsetInCU: 0x4D5C, offset: 0x26A03, size: 0x8, addend: 0x0, symName: '-[OverlayView handleLongPress:]', symObjAddr: 0x86C, symBinAddr: 0x109A0, symSize: 0x44 }
+  - { offsetInCU: 0x4DD0, offset: 0x26A77, size: 0x8, addend: 0x0, symName: '___31-[OverlayView handleLongPress:]_block_invoke', symObjAddr: 0x8B0, symBinAddr: 0x109E4, symSize: 0x68 }
+  - { offsetInCU: 0x4E31, offset: 0x26AD8, size: 0x8, addend: 0x0, symName: __ZL16initialize_hooksv, symObjAddr: 0x918, symBinAddr: 0x10A4C, symSize: 0x15C }
+  - { offsetInCU: 0x4F52, offset: 0x26BF9, size: 0x8, addend: 0x0, symName: __ZL15_logosLocalInitv, symObjAddr: 0xE70, symBinAddr: 0x10FA4, symSize: 0x34 }
+  - { offsetInCU: 0x4F9A, offset: 0x26C41, size: 0x8, addend: 0x0, symName: '__ZL81_logos_method$_ungrouped$UIApplication$application$didFinishLaunchingWithOptions$P13UIApplicationP13objc_selectorS0_P12NSDictionary', symObjAddr: 0xEA4, symBinAddr: 0x10FD8, symSize: 0x50 }
+  - { offsetInCU: 0x4FD3, offset: 0x26C7A, size: 0x8, addend: 0x0, symName: '__ZL81_logos_method$_ungrouped$UIApplication$application$didFinishLaunchingWithOptions$P13UIApplicationP13objc_selectorS0_P12NSDictionary', symObjAddr: 0xEA4, symBinAddr: 0x10FD8, symSize: 0x50 }
+  - { offsetInCU: 0x50BA, offset: 0x26D61, size: 0x8, addend: 0x0, symName: '____ZL81_logos_method$_ungrouped$UIApplication$application$didFinishLaunchingWithOptions$P13UIApplicationP13objc_selectorS0_P12NSDictionary_block_invoke', symObjAddr: 0xEF4, symBinAddr: 0x11028, symSize: 0x54 }
+  - { offsetInCU: 0x1E, offset: 0x270CE, size: 0x8, addend: 0x0, symName: _rebind_symbols_image, symObjAddr: 0x0, symBinAddr: 0x1107C, symSize: 0x74 }
+  - { offsetInCU: 0x37, offset: 0x270E7, size: 0x8, addend: 0x0, symName: __rebindings_head, symObjAddr: 0x2E70, symBinAddr: 0x18640, symSize: 0x0 }
+  - { offsetInCU: 0x55F, offset: 0x2760F, size: 0x8, addend: 0x0, symName: _rebind_symbols_image, symObjAddr: 0x0, symBinAddr: 0x1107C, symSize: 0x74 }
+  - { offsetInCU: 0x61E, offset: 0x276CE, size: 0x8, addend: 0x0, symName: _prepend_rebindings, symObjAddr: 0x74, symBinAddr: 0x110F0, symSize: 0x88 }
+  - { offsetInCU: 0x679, offset: 0x27729, size: 0x8, addend: 0x0, symName: _rebind_symbols_for_image, symObjAddr: 0xFC, symBinAddr: 0x11178, symSize: 0x1F8 }
+  - { offsetInCU: 0x8C5, offset: 0x27975, size: 0x8, addend: 0x0, symName: _perform_rebinding_with_section, symObjAddr: 0x3B0, symBinAddr: 0x1142C, symSize: 0x194 }
+  - { offsetInCU: 0xA6B, offset: 0x27B1B, size: 0x8, addend: 0x0, symName: _rebind_symbols, symObjAddr: 0x2F4, symBinAddr: 0x11370, symSize: 0xA8 }
+  - { offsetInCU: 0xB4D, offset: 0x27BFD, size: 0x8, addend: 0x0, symName: __rebind_symbols_for_image, symObjAddr: 0x39C, symBinAddr: 0x11418, symSize: 0x14 }
+  - { offsetInCU: 0xB79, offset: 0x27C29, size: 0x8, addend: 0x0, symName: _perform_rebinding_with_section, symObjAddr: 0x3B0, symBinAddr: 0x1142C, symSize: 0x194 }
+...

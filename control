@@ -1,0 +1,9 @@
+Package: com.tien0246.customvoice
+Name: CustomVoice
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: An awesome CustomVoice tweak!
+Maintainer: tien0246
+Author: tien0246
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
